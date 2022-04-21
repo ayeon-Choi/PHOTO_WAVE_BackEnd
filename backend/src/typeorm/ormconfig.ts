@@ -2,7 +2,7 @@ import "dotenv/config";
 import { ConnectionOptions } from "typeorm";
 
 interface DBConnectionOptions {
-  [env: string]: ConnectionOptions;
+  [env: string]:ConnectionOptions;
 }
 
 const connectionOptions: DBConnectionOptions = {
@@ -24,7 +24,7 @@ const connectionOptions: DBConnectionOptions = {
     username: process.env.PRODUCTION_DATABASE_USER,
     password: process.env.PRODUCTION_DATABASE_PASSWORD,
     database: process.env.PRODUCTION_DATABASE_NAME,
-    synchronize: false,
+    synchronize: true,
     logging: true,
     entities: ["./dist/**/*.entity.js"],
   },
