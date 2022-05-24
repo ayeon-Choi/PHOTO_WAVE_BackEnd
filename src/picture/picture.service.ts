@@ -1,5 +1,5 @@
 import { Injectable } from "@nestjs/common";
-import { PictureRepository } from "./picture.repository";
+import { PictureRepository } from "./entity/picture.repository";
 
 @Injectable()
 export class PictureService {

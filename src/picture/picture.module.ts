@@ -1,7 +1,8 @@
 import { Module } from "@nestjs/common";
 import { TypeOrmModule } from "@nestjs/typeorm";
+import { PictureRepository } from "./entity/picture.repository";
 import { PictureController } from "./picture.controller";
-import { PictureRepository } from "./picture.repository";
+
 import { PictureService } from "./picture.service";
 
 @Module({

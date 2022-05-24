@@ -1,5 +1,5 @@
-import { Picture } from "src/picture/picture.entity";
-import { User } from "src/user/user.entity";
+import { Picture } from "src/picture/entity/picture.entity";
+import { User } from "src/user/entity/user.entity";
 import {
   Column,
   Entity,

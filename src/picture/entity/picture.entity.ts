@@ -1,4 +1,5 @@
-import { Album } from "src/album/ablum.entity";
+
+import { Album } from "src/album/entitiy/ablum.entity";
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity("picture")
